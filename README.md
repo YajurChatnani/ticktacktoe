@@ -8,10 +8,10 @@ A simple and interactive Tic-Tac-Toe game built using **Python** and **KivyMD**,
 
 <table>
   <tr>
-    <td><img src="screenshots/game_play_in_progress.jpg" width="200"/></td>
-    <td><img src="screenshots/win_transition_animation.jpg" width="200"/></td>
-    <td><img src="screenshots/winner_screen_o.jpg" width="200"/></td>
-    <td><img src="screenshots/winner_screen_x.jpg" width="200"/></td>
+    <td><img src="screenshots/game_play_in_progress.jpg" width="250"/></td>
+    <td><img src="screenshots/win_transition_animation.jpg" width="250"/></td>
+    <td><img src="screenshots/winner_screen_o.jpg" width="250"/></td>
+    <td><img src="screenshots/winner_screen_x.jpg" width="250"/></td>
   </tr>
 </table>
 
