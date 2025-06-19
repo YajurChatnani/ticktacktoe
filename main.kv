@@ -1,0 +1,109 @@
+<MagicCard@MagicBehavior+MDCard>:
+    
+
+ScreenManager:
+    GameScreen3:
+        
+<GameScreen3>
+    name: 'GameScreen3'
+    id: gamescreen3
+    MDFloatLayout:
+        id: floatlayout
+        MDLabel:
+            id: playerturn
+            text: 'Turn: Player O'
+            font_style: "H6"
+            halign: 'center'
+            pos_hint: {'center_y':0.84}
+        
+        MDGridLayout:
+            id: buttongrid
+            size_hint: None,None
+            width: min(self.parent.height,self.parent.width)
+            height: self.width
+            pos_hint: {'center_y':0.5}
+            cols: 3
+            rows: 3
+            spacing: 24
+            padding: 16
+            MagicCard:
+                style: 'elevated'
+                elevation: 0
+                id: card1
+                md_bg_color: (215/256,215/256,215/256,1)
+                
+                on_release: 
+                    root.ButtonClick(self,1)
+                    self.grow()
+            
+            MagicCard:
+                style: 'elevated'
+                elevation: 0
+                id: card2
+                md_bg_color: (215/256,215/256,215/256,1)
+                on_release: 
+                    root.ButtonClick(self,2)
+                    self.grow()
+
+            MagicCard:
+                style: 'elevated'
+                elevation: 0
+                id: card3
+                md_bg_color: (215/256,215/256,215/256,1)
+                on_release: 
+                    root.ButtonClick(self,3)
+                    self.grow()
+
+            MagicCard:
+                style: 'elevated'
+                elevation: 0
+                id: card4
+                md_bg_color: (215/256,215/256,215/256,1)
+                on_release: 
+                    root.ButtonClick(self,4)
+                    self.grow()
+
+            MagicCard:
+                style: 'elevated'
+                elevation: 0
+                id: card5
+                md_bg_color: (215/256,215/256,215/256,1)
+                on_release: 
+                    root.ButtonClick(self,5)
+                    self.grow()    
+
+            MagicCard:
+                style: 'elevated'
+                elevation: 0
+                id: card6
+                md_bg_color: (215/256,215/256,215/256,1)
+                on_release: 
+                    root.ButtonClick(self,6)
+                    self.grow()
+
+            MagicCard:
+                style: 'elevated'
+                elevation: 0
+                id: card7
+                md_bg_color: (215/256,215/256,215/256,1)
+                on_release: 
+                    root.ButtonClick(self,7)
+                    self.grow()
+
+            MagicCard:
+                style: 'elevated'
+                elevation: 0
+                id: card8
+                md_bg_color: (215/256,215/256,215/256,1)
+                on_release: 
+                    root.ButtonClick(self,8)
+                    self.grow()
+
+            MagicCard:
+                style: 'elevated'
+                elevation: 0
+                id: card9
+                md_bg_color: (215/256,215/256,215/256,1)
+                on_release: 
+                    root.ButtonClick(self,9)
+                    self.grow()
