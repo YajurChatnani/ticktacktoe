@@ -63,6 +63,6 @@ A simple and interactive Tic-Tac-Toe game built using **Python** and **KivyMD**,
    ```bash
    pip install kivy kivymd
 
-4. **Run the app: **
+4. **Run the app:**
    ```bash
    python main.py
