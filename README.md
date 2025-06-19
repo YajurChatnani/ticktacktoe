@@ -15,7 +15,7 @@ A simple and interactive Tic-Tac-Toe game built using **Python** and **KivyMD**,
   </tr>
 </table>
 
-> 🎥 [Watch Demo]([https://youtu.be/yourlink](https://youtu.be/iwBhbxgoezg?si=fD9PkvyEJgI6U2be))
+> 🎥 [Watch Demo]
 > [![Watch the demo](https://img.youtube.com/vi/iwBhbxgoezg/0.jpg)](https://youtu.be/iwBhbxgoezg)
 
 ---
