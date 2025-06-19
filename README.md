@@ -49,8 +49,20 @@ A simple and interactive Tic-Tac-Toe game built using **Python** and **KivyMD**,
 
 ## 📂 Installation & Running
 
-1. **Clone this repo:**
-
+1. **Clone this repository:**
    ```bash
-   git clone https://github.com/yourusername/tictactoe-kivymd.git
-   cd tictactoe-kivymd
+   git clone https://github.com/YajurChatnani/ticktacktoe.git
+   cd ticktacktoe
+   
+2. **(Optional) Create and activate a virtual environment:**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # For Windows: venv\Scripts\activate
+
+3. **Install required dependencies:**
+   ```bash
+   pip install kivy kivymd
+
+4. **Run the app: **
+   ```bash
+   python main.py
