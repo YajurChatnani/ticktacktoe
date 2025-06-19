@@ -6,10 +6,16 @@ A simple and interactive Tic-Tac-Toe game built using **Python** and **KivyMD**,
 
 ## 📱 Preview
 
-<img src="screenshots/game_play_in_progress.jpg" width="300"/>
-<img src="screenshots/win_transition_animation.jpg" width="300"/>
-<img src="screenshots/winner_screen_o.jpg" width="300"/>
-<img src="screenshots/winner_screen_x.jpg" width="300"/>
+<table>
+  <tr>
+    <td><img src="screenshots/game_play_in_progress.png" width="200"/></td>
+    <td><img src="screenshots/win_transition_animation.png" width="200"/></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/winner_screen_o.png" width="200"/></td>
+    <td><img src="screenshots/winner_screen_x.png" width="200"/></td>
+  </tr>
+</table>
 
 > 🎥 *[Optional: Add a demo video link here]*  
 > *(e.g., [Watch Demo](https://youtu.be/yourlink) 
